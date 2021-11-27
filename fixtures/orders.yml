@@ -1,0 +1,16 @@
+App\Entity\Order:
+  order_{0..100}:
+    reference: <sentence()>
+    subTotal: <numberBetween(1, 10)>
+    discount: <numberBetween(1, 10)>
+    total: <numberBetween(1, 10)>
+    date: <dateTimeBetween("-5 days", "now")>
+    payment: '@payment_<current()>'
+    customer: '@user_*'
+    shippingDetails:  
+      - details:
+          tracking: ''
+          carrier: <sentence()>
+          weight: <numberBetween(1, 10)>
+          fee: <numberBetween(1, 10)>
+          date: <dateTimeBetween("-5 days","now" )>

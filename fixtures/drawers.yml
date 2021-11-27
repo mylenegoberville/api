@@ -1,0 +1,3 @@
+App\Entity\Drawer:
+  drawer_{0..100}:
+    name: 'drawer_<current()>'

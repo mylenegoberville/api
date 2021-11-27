@@ -1,0 +1,13 @@
+App\Entity\Address:
+  invoiceAddress_{0..10}:
+    name: <firstName()> <lastName()>
+    street: <sentence()>
+    city: <city()>
+    country: <country()>
+    userInvoiceAddress: '@user_<current()>'
+  shippingAddress_{0..10}:
+    name: <firstName()> <lastName()>
+    street: <sentence()>
+    city: <city()>
+    country: <country()>
+    userShippingAddress: '@user_<current()>'

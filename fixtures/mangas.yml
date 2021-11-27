@@ -1,0 +1,7 @@
+App\Entity\Manga:
+  manga_{0..40}:
+    title: 'manga_<current()>'
+    description: <sentence(7)>
+    author: '@author_*'
+    genres: ['@genre_*','@genre_*','@genre_*']
+    type: '@type_*'

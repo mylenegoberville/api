@@ -1,0 +1,3 @@
+App\Entity\Author:
+  author_{0..100}:
+    name: 'author_<current()>'

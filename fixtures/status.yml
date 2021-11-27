@@ -1,0 +1,43 @@
+App\Entity\Status:
+  status_1:
+    name: 'Awaiting check payment'
+    color: 'bg-blue text-white'
+  status_2:
+    name: 'Payment accepted'
+    color: 'bg-green text-white'
+  status_3:
+    name: 'Preparing the order'
+    color: 'bg-orange text-black'
+  status_4:
+    name: 'Shipped'
+    color: 'bg-purple text-white'
+  status_5:
+    name: 'Delivered'
+    color: 'bg-green-700 text-white'
+  status_6:
+    name: 'Canceled'
+    color: 'bg-pink text-white'
+  status_7:
+    name: 'Refunded'
+    color: 'bg-red text-white'
+  status_8:
+    name: 'Payment error'
+    color: 'bg-red-700 text-white'
+  status_9:
+    name: 'On pre-order (paid)'
+    color: 'bg-purple-300 text-white'
+  status_10:
+    name: 'Awaiting bank wire payment'
+    color: 'bg-blue text-white'
+  status_11:
+    name: 'Awaiting PayPal payment'
+    color: 'bg-blue-700 text-white'
+  status_12:
+    name: 'Remote payment accepted'
+    color: 'bg-green-800 text-white'
+  status_13:
+    name: 'On pre-order (not paid)'
+    color: 'bg-purple-700 text-white'
+  status_14:
+    name: 'Awaiting Cash-on-delivery payment'
+    color: 'bg-blue-800 text-white'

@@ -1,0 +1,5 @@
+App\Entity\OrderStatus:
+  orderStatus_{0..500}:
+    date: <dateTimeBetween("-5 days", "now")>
+    statusOrder: '@order_*'
+    status: '@status_*'

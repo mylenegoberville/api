@@ -1,0 +1,17 @@
+App\Entity\User:
+  user_{0..10}:
+    email: 'user_<current()>\@example.com'
+    password: '\$2y\$13\$qu19oh.A6KXCGaGUer3diOOwxPciN.ADBiurunwkig3MEMbUX/pQ6'
+    firstName: <firstName()>
+    lastName: <lastName()>
+    phoneNumber: <phoneNumber()>
+  user:
+    email: 'test\@example.com'
+    password: '\$2y\$13\$qu19oh.A6KXCGaGUer3diOOwxPciN.ADBiurunwkig3MEMbUX/pQ6'
+    firstName: <firstName()>
+    lastName: <lastName()>
+  admin:
+    email: 'admin\@fusetheme.com'
+    password: \$2y\$13\$K873s3.97UGShNCnXhCCiuAYIkbpmT1QOCRZ3EpC.IZzg79.NBatG
+    firstName: Fuse
+    lastName: Admin

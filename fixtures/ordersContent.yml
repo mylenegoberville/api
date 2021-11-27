@@ -1,0 +1,5 @@
+App\Entity\OrderContent:
+  orderContent_{0..500}:
+    aOrder: '@order_*'
+    book: '@book_*'
+    quantity: 1

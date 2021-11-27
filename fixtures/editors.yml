@@ -1,0 +1,3 @@
+App\Entity\Editor:
+  editor_{0..10}:
+    name: 'editor_<current()>'

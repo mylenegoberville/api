@@ -1,0 +1,16 @@
+App\Entity\Book:
+  book_{0..500}:
+    title: 'book_<current()>'
+    description: <sentence()>
+    priceTaxExcl: 5.75
+    priceTaxIncl: 6.9
+    isbn: <sentence()>
+    width: '<numberBetween(1.0, 10.0)>cm'
+    height: '<numberBetween(1.0, 5.0)>cm'
+    depth: '<numberBetween(1.0, 2.0)>cm'
+    weight: <numberBetween(1.0, 2.0)>g'
+    extraShippingFee: 2
+    quantity: <numberBetween(1, 10)>
+    relatedManga: '@manga_*'
+    drawer: '@drawer_*'
+    editor: '@editor_*'

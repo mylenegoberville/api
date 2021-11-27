@@ -1,0 +1,6 @@
+App\Entity\Payment:
+  payment_{0..100}:
+    transactionId: <sentence()>
+    method: <sentence()>
+    amount: <numberBetween(1, 500)>
+    date: <dateTimeBetween("-5 days", "now")>
